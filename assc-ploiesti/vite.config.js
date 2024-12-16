@@ -1,8 +1,9 @@
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
-import path from 'path';
+import path, { basename } from 'path';
 
 export default defineConfig({
+  base: '/assc-ploiesti/',
   plugins: [vue()],
   resolve: {
     alias: {
