@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue';
 import path, { basename } from 'path';
 
 export default defineConfig({
-  base: '/assc-ploiesti/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/assc_ploiesti/' : '/',
   plugins: [vue()],
   resolve: {
     alias: {
