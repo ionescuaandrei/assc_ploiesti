@@ -1,39 +1,97 @@
 <template>
-  <div class="w-[1000px] mx-auto">
-    <div class="antet my-[30px] flex justify-center gap-[100px] items-center">
-      <img 
-        :src="logo1" 
-        alt="Antet Image" 
-        class="w-[200px] h-auto object-cover"
-      >
-      <img 
-        :src="logo2" 
-        alt="Antet Image" 
-        class="w-[70px] h-auto object-cover"
-      >
-      <img 
-        :src="logo3" 
-        alt="Antet Image" 
-        class="w-[250px] h-auto object-cover"
-      >
-      
+  <div class="w-[1200px] mx-auto flex align-center justify-between flex-col h-screen">
+    <div class="">
+      <div class="antet my-[30px] flex justify-center gap-[100px] items-center">
+        <img 
+          :src="logo1" 
+          alt="Antet Image" 
+          class="w-[200px] h-auto object-cover"
+        >
+        <img 
+          :src="logo2" 
+          alt="Antet Image" 
+          class="w-[70px] h-auto object-cover"
+        >
+        <img 
+          :src="logo3" 
+          alt="Antet Image" 
+          class="w-[250px] h-auto object-cover"
+        >
+        
+      </div>
+      <div class="title text-center text-[30px] font-bold text-primary mb-[30px]">
+        <h1>„Înființarea centrului de zi pentru persoane adulte cu dizabilități“</h1>
+      </div>
+      <nav class="mx-auto mb-[30px]">
+    <ul class="flex items-center justify-between">
+      <li>
+        <router-link 
+          to="/" 
+          class="bg-primary text-white px-3 py-2 font-bold rounded-md transition duration-300"
+          active-class="border-3 border-primary border-solid text-active bg-white "
+        >
+          Home
+        </router-link>
+      </li>
+      <li>
+        <router-link 
+          to="/beneficiar" 
+          class="bg-primary text-white px-3 py-2 font-bold rounded-md transition duration-300"
+          active-class="border-3 border-primary border-solid text-active bg-white "
+        >
+          Beneficiar
+        </router-link>
+      </li>
+      <li>
+        <router-link 
+          to="/despre" 
+          class="bg-primary text-white px-3 py-2 font-bold rounded-md transition duration-300"
+          active-class="border-3 border-primary border-solid text-active bg-white "
+        >
+          Despre proiect
+        </router-link>
+      </li>
+      <li>
+        <router-link 
+          to="/obiective" 
+          class="bg-primary text-white px-3 py-2 font-bold rounded-md transition duration-300"
+          active-class="border-3 border-primary border-solid text-active bg-white "
+        >
+          Obiectivele proiectului
+        </router-link>
+      </li>
+      <li>
+        <router-link 
+          to="/valori" 
+          class="bg-primary text-white px-3 py-2 font-bold rounded-md transition duration-300"
+          active-class="border-3 border-primary border-solid text-active bg-white "
+        >
+          Valorile proiectului
+        </router-link>
+      </li>
+      <li>
+        <router-link 
+          to="/perioada" 
+          class="bg-primary text-white px-3 py-2 font-bold rounded-md transition duration-300"
+          active-class="border-3 border-primary border-solid text-active bg-white "
+        >
+          Perioada de implementare
+        </router-link>
+      </li>
+      <li>
+        <router-link 
+          to="/stadiu" 
+          class="bg-primary text-white px-3 py-2 font-bold rounded-md transition duration-300"
+          active-class="border-3 border-primary border-solid text-active bg-white "
+        >
+          Stadiul proiectului
+        </router-link>
+      </li>
+    </ul>
+      </nav>
     </div>
-    <div class="title text-center text-[30px] font-bold text-primary mb-[30px]">
-      <h1>„Înființarea centrului de zi pentru persoane adulte cu dizabilități“</h1>
-    </div>
-    <nav class="mx-auto">
-      <ul class="flex items-center justify-between">
-        <li class="bg-primary text-white px-[10px] py-[5px] font-bold rounded-[5px]"><router-link to="/">Home</router-link></li>
-        <li class="bg-primary text-white p-[7px] font-bold rounded-[5px]"><router-link to="/beneficiar">Beneficiar</router-link></li>
-        <li class="bg-primary text-white p-[7px] font-bold rounded-[5px]"><router-link to="/despre">Despre</router-link></li>
-        <li class="bg-primary text-white p-[7px] font-bold rounded-[5px]"><router-link to="/obiective">Obiective</router-link></li>
-        <li class="bg-primary text-white p-[7px] font-bold rounded-[5px]"><router-link to="/valori">Valori</router-link></li>
-        <li class="bg-primary text-white p-[7px] font-bold rounded-[5px]"><router-link to="/perioada">Perioada</router-link></li>
-        <li class="bg-primary text-white p-[7px] font-bold rounded-[5px]"><router-link to="/stadiu">Stadiu</router-link></li>
-      </ul>
-    </nav>
     <router-view></router-view>
-    <footer class="mt-[30px]">
+    <footer >
       <img 
       :src="footer" 
       alt="Subsol Image" 
@@ -67,4 +125,5 @@ import tricolor from '@/assets/footer/tricolor.jpg';
 </script>
 
 <style scoped>
+
 </style>
