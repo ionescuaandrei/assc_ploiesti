@@ -28,7 +28,7 @@
         <router-link 
           to="/" 
           class="bg-primary text-white px-3 py-2 font-bold rounded-md transition duration-300"
-          active-class="border-3 border-primary border-solid text-active bg-white "
+          active-class="border-3 border-primary border-solid text-[#003399] bg-white "
         >
           Home
         </router-link>
@@ -37,7 +37,7 @@
         <router-link 
           to="/beneficiar" 
           class="bg-primary text-white px-3 py-2 font-bold rounded-md transition duration-300"
-          active-class="border-3 border-primary border-solid text-active bg-white "
+          active-class="border-3 border-primary border-solid text-[#003399] bg-white "
         >
           Beneficiar
         </router-link>
@@ -46,7 +46,7 @@
         <router-link 
           to="/despre" 
           class="bg-primary text-white px-3 py-2 font-bold rounded-md transition duration-300"
-          active-class="border-3 border-primary border-solid text-active bg-white "
+          active-class="border-3 border-primary border-solid text-[#003399] bg-white "
         >
           Despre proiect
         </router-link>
@@ -55,7 +55,7 @@
         <router-link 
           to="/obiective" 
           class="bg-primary text-white px-3 py-2 font-bold rounded-md transition duration-300"
-          active-class="border-3 border-primary border-solid text-active bg-white "
+          active-class="border-3 border-primary border-solid text-[#003399] bg-white "
         >
           Obiectivele proiectului
         </router-link>
@@ -64,7 +64,7 @@
         <router-link 
           to="/valori" 
           class="bg-primary text-white px-3 py-2 font-bold rounded-md transition duration-300"
-          active-class="border-3 border-primary border-solid text-active bg-white "
+          active-class="border-3 border-primary border-solid text-[#003399] bg-white "
         >
           Valorile proiectului
         </router-link>
@@ -73,7 +73,7 @@
         <router-link 
           to="/perioada" 
           class="bg-primary text-white px-3 py-2 font-bold rounded-md transition duration-300"
-          active-class="border-3 border-primary border-solid text-active bg-white "
+          active-class="border-3 border-primary border-solid text-[#003399] bg-white "
         >
           Perioada de implementare
         </router-link>
@@ -82,7 +82,7 @@
         <router-link 
           to="/stadiu" 
           class="bg-primary text-white px-3 py-2 font-bold rounded-md transition duration-300"
-          active-class="border-3 border-primary border-solid text-active bg-white "
+          active-class="border-3 border-primary border-solid text-[#003399] bg-white "
         >
           Stadiul proiectului
         </router-link>
