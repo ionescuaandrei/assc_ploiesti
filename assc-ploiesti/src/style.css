@@ -2,7 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
-.router-link-active {
-    @apply border-3 border-primary bg-white text-primary;
-  }
+
 
